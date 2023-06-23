@@ -1,6 +1,55 @@
-img {
+.horizontal-list {
+  margin-left: 20%;
+}
+.horizontal-list li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.recipie {
+  border-bottom: black solid 1px;
+  padding-bottom: 80px;
+}
+
+.all-recipies-details {
+  display: block;
+  margin: 0 10%;
+}
+
+.recipie:last-child {
+  border-bottom: none;
+}
+
+.ingredients {
+  text-align: center;
+}
+
+.ingredients li {
+  list-style: none;
+}
+
+.to-the-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.arrow-up {
+  height: 24px;
+  width: 24px;
+}
+
+.center {
+  display: block;
   max-width: 600px;
   max-height: 400px;
   width: auto;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2,
+h3 {
+  text-align: center;
 }
